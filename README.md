@@ -175,7 +175,7 @@ To avoid over fitting, **drop out layer** is used in this model and the drop out
 
 |      Learning rate 0.01      |      Learning rate 0.001       |
 | :--------------------------: | :----------------------------: |
-| ![lr0_01](MDdata/lr0_01.png) | ![Lr0_001](MDdata/Lr0_001.png) |
+| ![lr0_01](MDdata/lr0_01.png) | ![Lr0_001](MDdata/lr0_001.png) |
 
 * Epoch: For the case learning rate = 0.001, the epoch number is increased to 16, and the loss is like the plot blow. Since the validation set loss does not decrease obviously after 5th epoch. I set epoch to 5 in this model.
 
