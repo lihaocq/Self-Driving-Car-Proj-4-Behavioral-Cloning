@@ -171,7 +171,7 @@ _________________________________________________________________
 To avoid over fitting, **drop out layer** is used in this model and the drop out possibility is set to 0.5. As we see in the loss visualization section, the loss for training set and validation set is small and decrease with epochs. Also, in the video,  vehicle behaves well on road under the control this this model. So over-fitting is not a issue for this model.
 
 ##### Parameter Tuning
-* Learning Rate: I tied to increase the learning rate to 0.01, however, this result in that loss converge is big initially, and then converge very fast. When learning rate is 0.001, the loss is always at low level and it keeps decreasing with epoch, which is more preferable. So I set learning rate 0.001 for this model.
+* Learning Rate: I tied to increase the learning rate to 0.01, however, this result in that loss converge is big initially, and then converge very fast. When learning rate is 0.001, the loss is always at low level and it keeps decreasing with epoch, which is more preferable. So I set learning rate to 0.001 for this model.
 
 |      Learning rate 0.01      |      Learning rate 0.001       |
 | :--------------------------: | :----------------------------: |
